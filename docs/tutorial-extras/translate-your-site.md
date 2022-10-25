@@ -73,6 +73,8 @@ The locale dropdown now appears in your navbar:
 
 ![Locale Dropdown](./img/localeDropdown.png)
 
+![Locale Dropdown](./img/localeDropdown.png)
+
 ## Build your localized site
 
 Build your site for a specific locale:
