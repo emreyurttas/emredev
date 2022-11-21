@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Emre Dev',
-  tagline: 'Dinosaurs are cool',
+  title: 'SENTINEL',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -44,7 +43,7 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
+        }, 
       }),
     ],
   ],
@@ -53,27 +52,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'HOME',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Home',
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'DOCS',
-          },
-          {
-            to: '/blog',
-            label: 'BLOG', 
-            position: 'left'
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: 'Docs',
           },
         ],
       },
@@ -84,7 +69,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'DOCS',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
