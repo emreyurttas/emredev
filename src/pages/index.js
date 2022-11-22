@@ -14,8 +14,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-
-
+        We are working to produce the most practical solutions that will save you time.
       </div>
     </header>
   );
@@ -25,8 +24,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={``}
+      description="Sentinel Asset Publisher <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
