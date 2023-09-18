@@ -65,6 +65,6 @@ The variables that can be assigned for now are as follows. Pay attention to the 
 
 If you have more questions, suggestions for additions, or if you notice anything missing, you can reach us through the following links:
 
-[Discord](https://discord.gg/Em7WyPMf)  
+[Discord](https://discord.com/invite/ShG2erm9QQ)  
 [Twitter](https://twitter.com/SentinelGa54657)  
 [Website](https://sentinelasset.store)
