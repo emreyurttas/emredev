@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Quic Start
+# Quick Start
 
 Thanks for buying Sentinel CmdXpert Asset
 
