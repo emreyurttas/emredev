@@ -60,7 +60,7 @@ After making the 'ENV' settings:
     Enter the server information in the `Sentinel/LoginPro/Prefabs/NetworkData' scriptable folder.
 
 To add more strategies: 
-    [PassportJS](https://www.passportjs.org/docs /) check the document.
+    [PassportJS](https://www.passportjs.org/docs/) check the document.
 
 If you have more questions, suggestions for additions, or if you notice anything missing, you can reach us through the following links:
 
