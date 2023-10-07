@@ -5,7 +5,7 @@ How to use
 
 2. Then `Sentinel/LoginPro/Server/LoginProServer_source'.extract the `zip' archive from the zip.
 
-3. On your computer [NodeJS](https://nodejs.org /) make sure it is installed
+3. On your computer [NodeJS](https://nodejs.org/) make sure it is installed
 
 4. Go to the `LoginProServer_source` folder that you extracted and start `CMD` or `Terminal`.
 
