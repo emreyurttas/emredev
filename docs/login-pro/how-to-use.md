@@ -1,66 +1,66 @@
 How to use
 ----------
 
-1. Öncelikle projenize LoginPro'yu import edin
+1. First of all, import LOGINPRO to your project
 
-2. Sonra `Sentinel/LoginPro/Server/LoginProServer_source.zip` arşivini zipten çıkarın.
+2. Then `Sentinel/LoginPro/Server/LoginProServer_source'.extract the `zip' archive from the zip.
 
-3. Bilgisayarınızda [NodeJS](https://nodejs.org/)  kurulu olduğundan emin olun
+3. On your computer [NodeJS](https://nodejs.org /) make sure it is installed
 
-4. Çıkardığınız `LoginProServer_source` klasörüne gidin ve `CMD` yada `Terminal` başlatın.
+4. Go to the `LoginProServer_source` folder that you extracted and start `CMD` or `Terminal`.
 
-5. `CMD/Terminal` üzerinden `npm install` komutunu çalıştırın.
+5. Run the `npm install` command from the `CMD/Terminal`.
 
 
-.ENV dosyası nasıl ayarlanır?
+How is the ENV file set up?
 ------------------------------------------------------
 
-*   **ENV dosyası nedir?** : `.env` dosyası ortam değişkenlerimizin bulunduğu dosyadır ve bilgilerimizi burada tutarız. Örneğin: Sunucu bilgileri, veritabanı bilgileri, SMTP bilgileri.
+**What is an ENV file?** : `.env`` file is the file where our environment variables are located, and we store our information here. For example: Server information, database information, SMTP information.
 
-*   #### SERVER (Sunucu Ayarları):
+* ##### SERVER (Server Settings):
 
-    **URL**: Sunucunun başladığında kullanılacak URL. Bu, uygulamanın hangi URL üzerinde çalışacağını belirtir.
+    **URL**: The URL that will be used when the server starts. This specifies which URL the application will run on.
     
-    **PORT**: Sunucunun başlayacağı port numarası. Bu, uygulamanın hangi port üzerinden erişilebileceğini belirtir.
+    **PORT**: The port number from which the server will start. This specifies the port through which the application can be accessed.
     
-    **JWT_SECRET** (JWT Kimlik Doğrulama İçin Gizli Anahtar): JWT kimlik doğrulama için kullanılacak gizli anahtar. Bu anahtar, JWT tokenlarını oluştururken ve doğrularken kullanılır.
+    **JWT_SECRET** (Secret Key For JWT Authentication): The secret key to be used for JWT authentication. This key is used when creating and validating JWT tokens.
     
-    **SESSION_SECRET** (Oturum Gizli Anahtar): Oturum yönetimi için kullanılacak gizli anahtar. Bu, oturumları güvence altına alırken kullanılır.
-*   #### MAIL (E-posta Ayarları):
+    **SESSION_SECRET** (Session Secret Key): The secret key to be used for session management. This is used when securing sessions.
+* #### MAIL (Email Settings):
 
-    **IS_VERIFICATION_REQUIRED**: E-posta doğrulama gerekip gerekmediğini belirten bir bayrak. Bu ayar, kullanıcıların hesaplarını doğrulamaları gerekip gerekmediğini kontrol eder.
+    **IS_VERIFICATION_REQUIRED**: A flag indicating whether email verification is required. This setting controls whether users need to verify their accounts.
 
-    **MAIL_SERVICE**: E-posta hizmet sağlayıcısı (örneğin, Gmail).
+    **MAIL_SERVICE**: Email service provider (for example, Gmail).
 
-    **MAIL_USER**: E-posta hizmetine erişim için kullanıcı adı.
+    **MAIL_USER**: The username for accessing the e-mail service.
 
-    **MAIL_PASS**: E-posta hizmetine erişim için şifre.
+    **MAIL_PASS**: The password for accessing the e-mail service.
 
-*   #### DATABASE (Veritabanı Ayarları):
+* ##### DATABASE (Database Settings):
 
-    **DATABASE_URL**: Veritabanına bağlanmak için kullanılacak bağlantı dizesi. Bu dize, veritabanı sunucusu, kullanıcı adı, şifre ve veritabanı adını içerir.
+    **DATABASE_URL**: The connection string to be used to connect to the database. This string contains the database server, username, password, and database name.
 
-*   #### FACEBOOK (Facebook Kimlik Doğrulama Ayarları):
+* FACEBOOK (Facebook Authentication Settings) * #### FACEBOOK (Facebook Authentication Settings):
 
-    **FACEBOOK_CLIENT_ID**: Facebook Kimlik Doğrulama için istemci kimliği.
+    **FACEBOOK_CLIENT_ID**: The client ID for Facebook Authentication.
 
-    **FACEBOOK_CLIENT_SECRET**: Facebook Kimlik Doğrulama için istemci sırrı.
+    **FACEBOOK_CLIENT_SECRET**: Client secret for Facebook Authentication.
 
-    **FACEBOOK_REDIRECT_URI**: Facebook kimlik doğrulama işlemi tamamlandığında kullanıcıyı yönlendireceğiniz URI.
+    **FACEBOOK_REDIRECT_URI**: The URI to which you will direct the user when the Facebook authentication process is completed.
 
-*   #### GOOGLE (Google Kimlik Doğrulama Ayarları):
+* #### GOOGLE (Google Authentication Settings):
 
-    **GOOGLE_CLIENT_ID**: Google Kimlik Doğrulama için istemci kimliği.
+    **GOOGLE_CLIENT_ID**: The client ID for Google Authentication.
 
-    **GOOGLE_CLIENT_SECRET**: Google Kimlik Doğrulama için istemci sırrı.
+    **GOOGLE_CLIENT_SECRET**: Client secret for Google Authentication.
 
-    **GOOGLE_REDIRECT_URI**: Google kimlik doğrulama işlemi tamamlandığında kullanıcıyı yönlendireceğiniz URI.
+    **GOOGLE_REDIRECT_URI**: The URI to which you will direct the user when the Google authentication process is completed.
 
-`ENV` ayarlarını yaptıktan sonra:
-    `Sentinel/LoginPro/Prefabs/NetworkData` ScriptableObjesine sunucu bilgilerini giriniz.
+After making the 'ENV' settings:
+    Enter the server information in the `Sentinel/LoginPro/Prefabs/NetworkData' scriptable folder.
 
-Daha fazla strateji eklemek için: 
-    [PassportJS](https://www.passportjs.org/docs/) dökümanını kontrol edin.
+To add more strategies: 
+    [PassportJS](https://www.passportjs.org/docs /) check the document.
 
 If you have more questions, suggestions for additions, or if you notice anything missing, you can reach us through the following links:
 
