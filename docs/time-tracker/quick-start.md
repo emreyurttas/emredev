@@ -8,7 +8,7 @@ Thanks for buying Sentinel CmdXpert Asset
 
 ## About
 
-**Cmd Xpert** entity takes care of the small operations on the project for you. It is built to save time and evolves with feedback..
+**Time Analytics** entity takes care of the small operations on the project for you. It is built to save time and evolves with feedback..
 
 ## Prerequisites
 
