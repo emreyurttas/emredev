@@ -15,3 +15,7 @@ If there are any issues with the keys, you can adjust the settings in the Sentin
 You can customize radial menu settings as you like in the RadialMenu/Data file.
 
 ![Settings](./img/Settings0.png)
+
+[Discord](https://discord.gg/Em7WyPMf)  
+[Twitter](https://twitter.com/SentinelGa54657)  
+[Website](https://sentinelasset.store)
